@@ -1,0 +1,27 @@
+.search-form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+input{
+    width: 578px;
+    height: 30px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+}
+
+.info-item{
+    margin-right: 20px;
+}
