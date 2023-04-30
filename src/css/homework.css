@@ -46,6 +46,7 @@ input{
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
+    margin-top: 70px;
     
 }
 
@@ -78,4 +79,23 @@ img{
     max-width: 400px;
     max-height: 250px;
     
+}
+
+.load-more{
+    color: white;
+    background-color: #735F5B;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 548px;
+    width: 100px;
+    height: 50px;
+    transition: 500ms;
+    display: none;
+}
+
+.load-more:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
